@@ -1,0 +1,171 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(/pexels-tembela-bohle-2803160.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+input {
+    background: white;
+    width: 300px;
+    height: 50px;
+    border: 2px solid black;
+}
+
+input:hover {
+    transition: all 0.3s ease;
+    transform: scale(1.02);
+}
+
+label {
+    margin-top: 20px;
+    display: flex;
+    font-size: 30px;
+    font-family: cursive, sans-serif;
+}
+
+h1{
+    font-family: cursive,sans-serif;
+    padding-top: 10px;
+    text-align: center;
+}
+
+h2 {
+    font-family: cursive;
+    padding: 8px;
+}
+
+table {
+    color: black;
+    font-family: cursive;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td , td {
+    color: black;
+    border: 1px solid white;
+    text-align: left;
+    padding: 8px;
+}
+
+th {
+    text-align: center;
+    background-color: #9ACD32;
+}
+
+p {
+    font-family: cursive;
+    font-size: 24px;
+    text-align: center;
+    color: white;
+}
+
+
+a{
+    font-size: 30px;
+    color: white;
+}
+
+footer{
+    width: 100%;
+}
+
+
+#my-form{
+    margin-top: 40px;
+    display: block;
+    
+}
+#result {
+    background-color: cornflowerblue;
+    text-align: center;
+    margin: 0px auto;
+    height: 90px;
+    border: 1px solid black;
+    border-radius: 10px;
+    width: 500px;
+}
+
+#resultado{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#error {
+    font-family: cursive;
+    font-size: 14px;
+    text-align: center;
+    color: red;
+}
+
+
+#button{
+    transition: all 0.3s ease;
+    font-family: cursive;
+    border: 2px solid black;
+    font-size: 15px;
+    font-weight: bold;
+    background-color: #9ACD32;
+    color: black;
+    width: 200px;
+    margin-top: 20px;
+    height: 40px;
+}
+
+#button:hover {
+    background-color: #7EA829;
+    transition: all 0.3s ease;
+    transform: scale(1.1);
+}
+
+#tabela-container {
+    background-color: cornflowerblue;
+    width: 400px;
+    height: 266px;
+    margin-top: 110px;
+}
+
+
+.container-footer {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+}
+
+.fab{
+    text-align: center;
+    width: 84px;
+}
+
+.fab:hover {
+    color: cornflowerblue;
+}
+
+.container {
+    background-color: cornflowerblue;
+    width: 500px;
+    height: 460px;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin: 80px auto auto auto;
+}
+
+
+.altura , .peso {
+    text-align: center;
+    margin:0 auto;
+    width: 300px;
+}
+
+

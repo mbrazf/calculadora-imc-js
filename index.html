@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="calculator.css">
+
+    <script src="https://kit.fontawesome.com/23cda6e370.js" crossorigin="anonymous"></script>
+    <title>Calculadora IMC</title>
+</head>
+<body>
+    <section class="container">
+        <h1>Calculadora de IMC</h1>
+        <form id="my-form">
+                <div class="altura">
+                    <h3 id="error"></h3>
+                    <label for="altura">Altura em Cm:</label>
+                    <input id="altura" type="number" placeholder="Digite sua altura" >
+                </div>
+                <div class="peso">
+                    <label for="peso">Peso em Kg:</label>
+                    <input id="peso" type="number" placeholder="Digite seu Peso" >
+                    <button id="button" type="submit">Calcular</button>
+                </div>
+        </form>
+    </section>
+    <div id="result">
+        <h2 id="resultado">Resultado</h2>
+    </div>
+      <section id='tabela-container'>
+          <table>
+              <tr>
+                <th>Níveis</th>
+                <th>IMC</th>
+              </tr>
+              <tr>
+                <td>Muito Abaixo do Peso</td>
+                <td>Menor que 17</td>
+              </tr>
+              <tr>
+                <td>Abaixo do Peso</td>
+                <td>Entre 17 e 18.49</td>
+              </tr>
+              <tr>
+                <td>Peso Normal</td>
+                <td>Entre 18.5 e 24.99</td>
+              </tr>
+              <tr>
+                <td>Acima do Peso</td>
+                <td>Entre 25 e 29.99</td>
+              </tr>
+              <tr>
+                <td>Obesidade I</td>
+                <td>Entre 30 e 34.99</td>
+              </tr>
+              <tr>
+                <td>Obesidade II</td>
+                <td>Maior ou Igual a 35</td>
+              </tr>
+            </table>
+      </section>
+      <footer>
+        <div class="container-footer">
+          <p>Calculadora de IMC feita por Marcelo Braz da Silva Filho</p>
+          <div>
+            <a href="https://github.com/mbrazf" target="_blank"><i class="fab fa-github"></i></a>
+            <a href="https://www.linkedin.com/in/marcelobrazf/" target="_blank"><i class="fab fa-linkedin"></i></a>
+          </div>
+        </div>
+        
+      </footer>
+      
+    <script src="script-calculator.js"></script>
+</body>
+</html>
